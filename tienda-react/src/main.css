@@ -4,6 +4,32 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+.cart-icon {
+    margin-left: auto; 
+}
+
+/* Carrito.css */
+.vaciar-btn {
+    background-color: rgb(64, 0, 255);
+    color: white;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius:5px ;
+}
+
+.compra-btn {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius:5px ;
+}
+
+
+
+
 
 :root {
     --clr-main: #6c7dee;
@@ -72,7 +98,7 @@
 
 .producto>div {
     padding: 1rem;
-    background-color: var(--clr-main-light);
+    background-color:rgb(229, 212, 237);
     display: flex;
     flex-direction: column;
     gap: .5rem;
@@ -86,7 +112,7 @@
 
 .producto .ver-mas {
     text-decoration: none;
-    background-color: var(--clr-main);
+    background-color:rgb(117, 117, 227);
     color: white;
     padding: .5rem;
     width: max-content;
@@ -95,7 +121,7 @@
 }
 
 .producto .ver-mas:hover {
-    background-color: black;
+    background-color: rgb(15, 6, 79);
     color: white;
 }
 
