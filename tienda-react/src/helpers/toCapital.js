@@ -1,3 +1,8 @@
 export function toCapital(str) {
-    return str.charAt(0).toUpperCase() + str.slice(1);
+    if (str && typeof str === 'string') {
+        return str.charAt(0).toUpperCase() + str.slice(1);
+    } else {
+        
+        return '';
+    }
 }

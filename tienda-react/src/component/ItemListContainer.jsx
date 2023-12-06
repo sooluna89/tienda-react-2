@@ -36,5 +36,5 @@ const ItemListContainer = () => {
         </div>
     )
 }
+export default ItemListContainer;
 
-export default ItemListContainer
