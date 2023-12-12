@@ -4,8 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
 .cart-icon {
-    margin-left: auto; 
+    margin-left: auto;
 }
 
 /* Carrito.css */
@@ -15,7 +16,7 @@
     padding: 10px 15px;
     margin-right: 10px;
     cursor: pointer;
-    border-radius:5px ;
+    border-radius: 5px;
 }
 
 .compra-btn {
@@ -24,12 +25,8 @@
     padding: 10px 15px;
     text-decoration: none;
     cursor: pointer;
-    border-radius:5px ;
+    border-radius: 5px;
 }
-
-
-
-
 
 :root {
     --clr-main: #6c7dee;
@@ -98,7 +95,7 @@
 
 .producto>div {
     padding: 1rem;
-    background-color:rgb(229, 212, 237);
+    background-color: rgb(229, 212, 237);
     display: flex;
     flex-direction: column;
     gap: .5rem;
@@ -112,7 +109,7 @@
 
 .producto .ver-mas {
     text-decoration: none;
-    background-color:rgb(117, 117, 227);
+    background-color: rgb(117, 117, 227);
     color: white;
     padding: .5rem;
     width: max-content;
@@ -199,6 +196,10 @@
     flex-direction: column;
     gap: .5rem;
     align-items: flex-start;
+    height: 93vh;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .formulario input {
@@ -212,3 +213,8 @@
     outline: 0;
     border: 2px solid var(--clr-main);
     outline: 2px solid var(--clr-main);
+}
+
+
+
+
